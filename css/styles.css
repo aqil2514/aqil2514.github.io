@@ -275,7 +275,7 @@ width: 5rem;
 }
 
 /* SUPER MINI */
-@media (max-width: 435px){
+@media (max-width: 722px){
     .profile img{
         width: 15rem;
         height: 15rem;
