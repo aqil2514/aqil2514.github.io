@@ -273,3 +273,19 @@ width: 5rem;
         overflow: scroll;
     }
 }
+
+/* SUPER MINI */
+@media (max-width: 435px){
+    .profile img{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .profile h1{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .active-navbar{
+        width: 50%;
+    }
+}
