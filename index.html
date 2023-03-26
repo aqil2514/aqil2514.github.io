@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
     <title>My Portfolio</title>
 
     <!-- FONT -->
@@ -44,8 +45,20 @@
 
     <!-- 2ND PAGE START -->
     <section class="portfolio" id="portfolio">
-        <h1>Ini adalah beberapa karya saya</h1>
-        <div class="container-portfolio">
+    <div class="identity">
+        <h1>Ini adalah beberapa karya saya di bidang</h1>
+        <select name="bidang">
+            <option value="1">Bidang</option>
+            <option value="2">Web Designer</option>
+            <option value="3">Penerjemahan</option>
+            <option value="4">Video Editor</option>
+            <option value="5">Penulis</option>
+        </select><button class="btn-port" type="button" id="but-bidang">Tampilkan</button>
+    </div>
+        <div id="default">
+            Pilih bidang dengan seleksi di atas
+        </div>
+        <div id="web-designer" class="container-portfolio" style="display:none">
             <a href="https://aqil2514.github.io/survey-form/" target="_blank"><img src="img/sf.png" alt="Portfolio"></a>
             <a href="https://aqil2514.github.io/tribute-page/" target="_blank"><img src="img/tp.png" alt="Portfolio"></a>
             <a href="https://aqil2514.github.io/product-landing-page/" target="_blank"><img src="img/plp.png" alt="Portfolio"></a>
